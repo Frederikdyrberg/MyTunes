@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="318.0" prefWidth="465.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="mytunes.GUI.controller.SongController">
+  <children>
+    <Label layoutX="177.0" layoutY="14.0" text="New/Edit Song" />
+    <Label layoutX="16.0" layoutY="51.0" text="Title" />
+    <Label layoutX="15.0" layoutY="96.0" text="Artist" />
+    <Label layoutX="15.0" layoutY="151.0" text="Time" />
+    <Label layoutX="19.0" layoutY="185.0" text="File" />
+    <Button fx:id="songCancel" layoutX="318.0" layoutY="273.0" mnemonicParsing="false" onAction="#songCancel" text="Cancel" />
+    <Button fx:id="songChoose" layoutX="377.0" layoutY="180.0" mnemonicParsing="false" onAction="#chooseSongFile" text="Choose..." />
+    <Button id="songSave" layoutX="400.0" layoutY="273.0" mnemonicParsing="false" onAction="#saveSong" text="Save" />
+    <Label fx:id="titleLbl" layoutX="98.0" layoutY="51.0" text="Song title" />
+    <Label id="showFile" fx:id="Filelbl" layoutX="84.0" layoutY="185.0" prefWidth="276.0" text="" />
+    <Label fx:id="lblTime" layoutX="98.0" layoutY="151.0" text="Label" />
+    <TextField fx:id="artistField" layoutX="95.0" layoutY="90.0" prefWidth="200.0" />
+  </children>
+</AnchorPane>

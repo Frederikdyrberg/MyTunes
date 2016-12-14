@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="94.0" prefWidth="289.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mytunes.GUI.controller.DeleteCheckController">
+   <children>
+      <Label layoutX="3.0" layoutY="4.0" text="Are you sure you want to delete this song/playlist?" />
+      <Button fx:id="no" layoutX="64.0" layoutY="56.0" mnemonicParsing="false" onAction="#no" text="No" />
+      <Button fx:id="yes" layoutX="232.0" layoutY="56.0" mnemonicParsing="false" onAction="#yes" text="Yes" />
+      <Label layoutX="64.0" layoutY="25.0" text="(This action cannot be reversed)" />
+   </children>
+</AnchorPane>
